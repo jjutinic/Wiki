@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Patrones de arquitectura</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Wiki</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">Patrones de arquitectura</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">Microkernel</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">Microservicios</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">N capas</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">Event-based pattern</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">Basado en el espacio  </a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="logo.jpg" alt="">
+            </div>
+            <h1>PATRONES DE ARQUITECTURA</h1>
+            <h2>SOFTWARE</h2>
+        </div>
+    </section>
+
+
+    <!-- DEFINICION PATRONES DE ARQUITECTURA -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Patrones de arquitectura</h2>
+            <p></span> En el ámbito del desarrollo del software luego de haber realizado los procesos de 
+                requerimientos, de priorizar las necesidades del cliente bien sea con historias de usuario o por cualquiera de los métodos
+                 escogidos; empezamos con la etapa de diseño donde mediante acuerdo mutuo con el equipo de trabajo y analizada toda la información
+                  recogida en la etapa anterior se establece cual es la mejor opción de <span>patrón de estructura de software</span> para la construcción de
+                   dicho software; ya que este es precisamente el método que se va a utilizar de base para el diseño de las diferentes 
+                   funcionalidades y de esta forma proporcionamos agilidad en el desarrollo.
+                En una forma más sencilla de explicar los <span>patrones de arquitectura de software</span> se puede decir que son un conjunto de decisiones 
+                de diseño que se encuentra repetidamente en la práctica, tiene propiedades bien definidas que pueden ser reutilizadas y describen 
+                las clases de arquitecturas.</p>
+                <p>Con nuestro equipo de trabajo conformado por <span>Juan Pablo Jutinico, Rubiel Alexander Alzate e Ingrid Vanesa Rojas</span>; queremos 
+                    contarles por medio de esta wiki sobre 5 patrones de arquitectura de software.</p>
+                
+                
+
+            <div class="fila">
+                <!-- PATRONES USADOS -->
+                <div class="col">
+                    <h3>Patrones de arquitectura a describir</h3>
+                    <ul>
+                        <li>
+                            <strong>Microkernel</strong>
+                            patrón de arquitectura enchufable
+                        </li>
+                        <li>
+                            <strong>Microservicios</strong>
+                            Servicios independientes 
+                        </li>
+                        <li>
+                            <strong>N capas</strong>
+                            Multi capas
+                        </li>
+                        <li>
+                            <strong>Event-based pattern</strong>
+                            Basada en eventos
+                        </li>
+                        <li>
+                            <strong>Basado en el espacio</strong>
+                            Cloud (Nube)
+                        </li>
+                    </ul>
+                </div>
+
+
+                <!-- IMAGENES -->
+                <DIV class="col">
+                    <h3>Imagenes</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <img src="microkernel.jpg" width="250px" alt="">
+                            <span>Microkernel</span>
+                        </div>
+                        <div class="interes">
+                            <img src="microservicios.jpg" width="250px" alt="">
+                            <span>Microservicios</span>
+                        </div>
+                        <div class="interes">
+                            <img src="capas.jpg" width="200px" alt="">
+                            <span>N capas</span>
+                        </div>
+                        <div class="interes">
+                            <img src="event.jpg" width="210px" alt="">
+                            <span>Event-based pattern</span>
+                        </div>
+                        <div class="interes">
+                            <img src="espacio.jpg" width="250px" alt="">
+                            <span>Basado en el espacio</span>
+                        </div>
+                    </div>
+                </DIV>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- SECCION HABILIDADES -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccioon">
+            <h2>Usabilidad</h2>
+            <div class="fila">
+                
+                <div class="col">
+                    
+                    <div class="skill">
+                        <span>Microkernel</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Microservicios</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>N capas</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Event-based pattern</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Basado en el espacio</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- SECCION MICROKERNEL -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>MICROKERNEL</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <div class="item izq">
+                        <h4>Definición</h4>
+                        <span class="fecha">El patrón arquitectónico microkernel o también llamado patrón de arquitectura enchufable es altamente
+                             utilizado en las ocasiones cuando los equipos de software crean sistemas con componentes intercambiables.</span>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+
+                    <div class="item izq">
+                        <h4>implementación</h4>
+                        <span class="fecha">Este es implementado en los sistemas de software que deben ser capaces de adaptarse a los requisitos cambiantes del sistema; este separa un núcleo funcional mínimo de la funcionalidad ampliada y de las partes específicas del cliente.
+                            Es muy útil utilizar este patrón en la creación de aplicaciones basadas en productos; es decir aquellas aplicaciones que están empaquetadas y disponibles para su descarga como típico producto de terceros.
+                            Este patrón de arquitectura da la posibilidad de adicionar características como plug-ins a la aplicación central, proporcionando extensibilidad, flexibilidad y aislamiento de las características de la aplicación y la lógica de procesamiento personalizada.
+                            </span>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    
+                </div>
+
+
+                <div class="col derecha">
+                    <div class="item der">
+                        <h4>Ventajas</h4>
+                        <span class="fecha">	Flexibilidad y extensibilidad.</span>
+                            <span class="fecha">	Portabilidad.</span>
+                            <span class="fecha">	Fácil despliegue.</span>
+                            <span class="fecha">	Personalizar y racionalizar las aplicaciones.</span>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Ejemplo: IDE Eclipse</h4>
+                        <span class="fecha">Un ejemplo muy grande de la utilización del patrón de arquitectura  microkernel es el IDE de Eclipse. En su primera descarga obtenemos simplemente el editor, pero una vez se empiezan
+                            a adicionar plugins se transforma en producto demasiado útil y altamente personalizable.</span>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- SECCION MICROCERVICIOS -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>MICROCERVICIOS</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <div class="item izq">
+                        <h4>Definición</h4>
+                        <span class="fecha">El patrón de arquitectura de microservicios es considerado como uno de los más modernos y prácticos en
+                             la actualidad, ya que este nos ofrece la posibilidad de construir una aplicación en varios servicios por separado,
+                              que funcionen de forma independiente de manera que cada componente de negocio lo separemos y la comunicación entre
+                               ellos  con el componente principal que los administra a todos  sea a través de mensajes, solicitudes http o 
+                               recursos rest. </span>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+
+                    <div class="item izq">
+                        <h4>Implementación</h4>
+                        <span class="fecha">	Sitios web con pequeños componentes.</span>
+                        <span class="fecha">	Centros de datos corporativos con límites bien definidos.</span>
+                        <span class="fecha">	El rápido desarrollo de nuevos negocios y aplicaciones web.</span>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    
+                </div>
+
+
+                <div class="col derecha">
+                    <div class="item der">
+                        <h4>Ventajas</h4>
+                            <span class="fecha">	Escribir, mantener y desplegar cada servicio por separado.</span>
+                            <span class="fecha">	Fácil de escalar.</span>
+                            <span class="fecha">	Altamente mantenible y comprobable.</span>
+                            <span class="fecha">	Desplegable de forma independiente.</span>
+                            <span class="fecha">	Fácil de entender y modificar.</span>
+                            <span class="fecha">	No causa dependencia a una sola tecnología. </span>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Ejemplo: Netflix </h4>
+                        <span class="fecha">Un gran ejemplo de la arquitectura de microservicios es la plataforma de streaming de video netflix,
+                             ya que para soportar sus visitas diarias que superan las 500 millones de peticiones y para adaptarse a más de 800 
+                             tipos de dispositivos su interfaz realiza 5 peticiones a diferentes servidores para no perder nunca continuidad de 
+                             la transmisión; ya que si uno llegase a fallar los demás que funcionan de forma autónoma retomarían el proceso.</span>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- SECCION N CAPAS -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>N CAPAS</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <div class="item izq">
+                        <h4>Definición</h4>
+                        <span class="fecha">Este es uno de los más comunes y utilizados en el desarrollo de programas informáticos y este destinado
+                            a ser autodependiente, esto quiere decir que todos los componentes están interconectados pero no dependen unos
+                             de otros. Cada capa del patrón de arquitectura en capas tiene un papel y una responsabilidad específicos dentro
+                              de la aplicación. EJE: una capa de presentación se encarga de manejar toda la interfaz de usuario y los procesos 
+                              de comunicación del navegador, mientras que una capa empresarial se encarga de ejecutar las reglas empresariales
+                               específicas asociadas a la solicitud. </span>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+
+                    <div class="item izq">
+                        <h4>implementación</h4>
+                        <span class="fecha">	Aplicaciones estándar de linea de negocios que hacen más que solo operaciones CRUD.</span>
+                        <span class="fecha">	Nuevas Aplicaciones que necesitan ser construidas rápidamente.</span>
+                        <span class="fecha">	Aplicaciones que requieren normas estrictas de mantenimiento y comprobabilidad.</span>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="col derecha">
+                    <div class="item der">
+                        <h4>Ventajas</h4>
+                            <span class="fecha">	Contención de cambios a una o pocas capas.</span>
+                            <span class="fecha">	Dependencias se limitan a intra-capa.</span>
+                            <span class="fecha">	Facilita la estandarización.</span>
+                            <span class="fecha">	Reutilización de capas.</span>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Ejemplo: </h4>
+                        <span class="fecha">Esta arquitectura de software se puede usar en el desarrollo de aplicaciones
+                             cuya finalidad sea tener una interfaz de usuario o presentación, lógica del negocio y datos.</span>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- SECCION Event-based pattern -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>EVENT BASED PATTERN</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <div class="item izq">
+                        <h4>Definición</h4>
+                        <span class="fecha">Esta es la arquitectura  asíncrona distribuida más común utilizada para desarrollar un sistema  altamente escalable. Este consiste en componentes de procesamiento de eventos de un solo propósito que escuchan los eventos y los procesan asincrónicamente.
+                            La arquitectura impulsada por eventos construye una unidad central que acepta todos los datos y luego los delega a los módulos separados  que manejan el tipo particular.
+                            </span>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+
+                    <div class="item izq">
+                        <h4>implementación</h4>
+                        <span class="fecha">	Sistemas asincrónicos con flujo de datos asincrónicos.</span>
+                        <span class="fecha">	Interfaces de usuario.</span>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    
+                </div>
+
+
+                <div class="col derecha">
+                    <div class="item der">
+                        <h4>Ventajas</h4>
+                            <span class="fecha">	Son fácilmente adaptables a entornos complejos, a menudo caóticos.</span>
+                            <span class="fecha">	Son fácilmente ampliables cuando aparecen nuevos tipos de eventos.</span>
+                            <span class="fecha">	Escala fácilmente.</span>
+                            <span class="fecha"></span>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Ejemplo: Plataforma de streaming subiendo una nueva película</h4>
+                        <span class="fecha">Cuando se utiliza una arquitectura basada en eventos, tiene productores de eventos que generan y envían
+                             notificaciones de eventos y puede tener uno o más consumidores de un evento, donde la recepción del evento activa la 
+                             lógica de procesamiento.</span>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- SECCION BASADO EN EL ESPACIO -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>BASADO EN EL ESPACIO</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <div class="item izq">
+                        <h4>Definición</h4>
+                        <span class="fecha">Este está diseñado específicamente para abordar y resolver problemas de escalabilidad  y 
+                            concurrencia. También es un patrón de arquitectura útil para las aplicaciones volúmenes de usuarios 
+                            concurrentes variables e impredecibles. 
+                            La alta escalabilidad se logra eliminado la restricción de la base de datos central y utilizando en su 
+                            lugar cuadriculas de datos replicados en memoria. 
+                            </span>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+
+                    <div class="item izq">
+                        <h4>implementación</h4>
+                        <span class="fecha">	Redes sociales.</span>
+                        <span class="fecha">	Datos de bajo valor que pueden perderse ocasionalmente sin grandes consecuencias. </span>
+                        <span class="fecha">	Datos de gran volumen como flujos de clicks y registro de usuarios.</span>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    
+                </div>
+
+
+                <div class="col derecha">
+                    <div class="item der">
+                        <h4>Ventajas</h4>
+                            <span class="fecha">	Responde rápidamente a un entorno basado en constante cambio.</span>
+                            <span class="fecha">	Se logra un alto rendimiento en el servidor gracias al acceso de
+                                 datos en memoria y a los mecanismos de almacenamiento en cache incorporados en esta pauta.</span>
+                            <span class="fecha">	La elevada escalabilidad se debe a que se depende poco o nada de una base de 
+                                datos centralizada, con lo que se elimina esencialmente
+                                 este cuello de botella limitante de la ecuación de la escalabilidad en un servidor.</span>
+                            
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Ejemplo: Facebook y Twitter.</h4>
+                        <span class="fecha">Este patrón de arquitectura de software puede ser utilizado por las aplicaciones 
+                            de redes sociales para el conteo de usuarios, likes, clicks etc.</span>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>Sugerencias</h2>
+            <div class="fila">
+                <!--FORMULARIO-->
+                <div class="col">
+                    <input type="text" placeholder="Tu nombre">
+                    <input type="text" placeholder="Numero telefonico">
+                    <input type="text" placeholder="Correo electronico">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar mensaje<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+<h2>Autores:</h2>
+
+    <h6>Juan Pablo Jutinico</h6>
+    <h6>Rubiel Alexander Alzate</h6>
+    <h6>Ingrid Vanesa Rojas</h6>
+    
+        
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
